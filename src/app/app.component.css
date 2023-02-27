@@ -1,0 +1,89 @@
+body{
+  background-color: #000000;
+}
+h1{
+  display: inline-block;
+}
+.first-h1{
+  color: white;
+}
+.second-h1{
+  color: #000000;
+  margin-left: 10px;
+}
+header {
+  background-image:url('../assets/img.jpg') ;
+  padding: 5px;
+  border-radius: 90px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.container {
+  margin-top: 10px;
+  padding: 16px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #d2f161;
+  width: 55%;
+  border: 3px solid;
+  outline: none;
+  text-align: center;
+  color:#310b1a;
+  border-radius: 20px;
+
+}
+.form-btn {
+  padding: 10px;
+  width: 45%;
+  font-size: 1rem;
+  margin-top: 30px;
+  background-color: transparent;
+  border: #950740 2px ;
+  border-style:ridge;
+  font-weight: bold;
+}
+
+.form-btn:hover {
+  background-color: #3c9af1;
+  color: aliceblue;
+}
+
+.short-url-div {
+  color: white;
+}
+
+.short-url-div a {
+  color: #310b1a;
+  font-weight: bold;
+}
+
+.short-url-div a:hover {
+  color: blue;
+}
+
+.short-url-btn-div button {
+  padding: 10px;
+  width: auto;
+  font-size: 1rem;
+  margin-top: 15px;
+  /* background-color: transparent; */
+  border: #950740 3px solid;
+  font-weight: bold;
+}
+
+.short-url-btn-div button:hover {
+  background-color: #ecc1d2;
+  
+}
+
+.btn-h2:hover {
+  color: wheat;
+}
